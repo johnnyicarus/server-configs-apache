@@ -1,3 +1,8 @@
+### 2.14.0 (April 4, 2015)
+
+* Update the web app manifest file related configs
+  [[e603554](https://github.com/h5bp/server-configs-apache/commit/e603554f559b1be4861553239e22a7844075bedc)].
+
 ### 2.13.0 (March 4, 2015)
 
 * Remove the mapping of `.manifest` files to the `text/cache-manifest` media type
