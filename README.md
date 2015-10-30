@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/h5bp/server-configs-apache.svg)](https://travis-ci.org/h5bp/server-configs-apache)
 [![devDependency Status](https://david-dm.org/h5bp/server-configs-apache/dev-status.svg)](https://david-dm.org/h5bp/server-configs-apache#info=devDependencies)
 
-__Note__: This fork is regularly rebased from the upstream repository. It only change from the original is that +FollowSymlinks is *disabled* and +SymLinksIfOwnerMatch is *enabled*.
+__Note__: This fork is regularly rebased from the upstream repository. Its only change from the original is that +FollowSymlinks is *disabled* and +SymLinksIfOwnerMatch is *enabled*.
 ```
 # (2)
 Options +FollowSymlinks
