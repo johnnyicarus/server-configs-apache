@@ -3,6 +3,17 @@
 [![Build Status](https://travis-ci.org/h5bp/server-configs-apache.svg)](https://travis-ci.org/h5bp/server-configs-apache)
 [![devDependency Status](https://david-dm.org/h5bp/server-configs-apache/dev-status.svg)](https://david-dm.org/h5bp/server-configs-apache#info=devDependencies)
 
+__Note__: This fork is regularly rebased from the upstream repository. It only change from the original is that +FollowSymlinks is *disabled* and +SymLinksIfOwnerMatch is *enabled*.
+```
+# (2)
+Options +FollowSymlinks
+# Options +FollowSymlinks
+
+# (3)
+# Options +SymLinksIfOwnerMatch
+Options +SymLinksIfOwnerMatch
+```
+
 __Apache Server Configs__ is a collection of boilerplate
 configurations that can help your server improve the web site's
 performance and security, while also ensuring that resources are
